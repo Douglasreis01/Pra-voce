@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pra você ❤️</title>
+</head>
+<body>
+    <section id="home">
+        <h1>Para você, que é o melhor capítulo da minha vida</h1>
+            <p>Esse site é simples… mas o que eu sinto por você não é.</p>
+                <button onclick="scrollToSection('historia')">Descobrir</button>
+    </section>
+    <hr>
+    <section id="historia">
+        <h2>Nossa história</h2>
+            <p>A gente não começou perfeito…
+            mas começou de verdade.
+            E foi assim, entre momentos simples, risadas, desafios e sonhos, que eu fui percebendo que não era só mais uma fase…
+            Era você.
+            E desde então, cada dia ao seu lado virou parte da melhor história que eu poderia viver.
+            </p>
+    </section>
+    <hr>
+    <section id="timeline">
+        <h2>
+            Tudo começou assim
+        </h2>
+            <p>💬 O começo
+            Um encontro que parecia comum… mas mudou tudo.
+
+            ❤️ Primeiros sentimentos
+            Quando eu percebi que você já não era mais “qualquer pessoa”.
+
+            💍 Nossa decisão
+            Quando escolhemos caminhar juntos de verdade.
+
+            👨‍👩‍👧‍👦 Nossa família
+            Quando nosso amor ganhou ainda mais sentido.
+            </p>
+    </section>
+    <hr>
+    <section id="galeria">
+        <h2>Nossos momentos</h2>
+            <p>Cada foto aqui guarda mais do que uma lembrança… guarda um pedaço da minha felicidade</p>
+        <p>Se algum dia você esquecer o quanto é importante...</p>
+        <img src="img/cesta de presente.jpg" alt="Foto1">
+        <img src="img/Douglas boné branco.jpg" alt="Foto2">
+        <img src="img/festa 15 anos.jpg" alt="Foto4">
+        <img src="img/formatura benfeitora.jpg" alt="Foto3">
+        <img src="img/Casamento.jpg" alt="Foto5">
+        <img src="img/Gravata roxo.jpg" alt="Foto6">
+        <img src="img/Show thiaguinho.jpg" alt="Foto7">
+        <img src="img/vestido azul.jpg" alt="Foto8">
+        <img src="img/beijando.jpg" alt="Foto9">
+        <img src="img/piscina.jpg" alt="Foto10">
+        <img src="img/Oculos.jpg" alt="Foto11">
+    </section>
+    <hr>
+    <section id="mensagem">
+        <h2>Para você</h2>
+        <p>Eu poderia falar de muitas conquistas…  
+            coisas materiais, objetivos alcançados…  
+            
+            Mas nada disso chega perto do que eu considero minha maior conquista:  
+            você, nossa família, e tudo que construímos juntos.  
+            
+            Obrigado por estar comigo nos dias bons…  
+            e principalmente nos dias difíceis.  
+            
+            Obrigado por ser minha parceira, minha base e minha paz.  
+            
+            Eu não sei o que o futuro guarda…  
+            mas sei que quero viver todos os dias dele ao seu lado.
+        </p>
+    </section>
+    <hr>
+    <section id="surpresa">
+        <h2>Se algum dia você esquecer o quanto é importante…</h2>
+        <button id="botãoMensagem">Clique aqui</button>
+        <p 
+            id=" mensagemOculta" class="oculta">
+                Você é mais forte do que imagina, mais importante do que pensa…
+                e nunca está sozinha. <br>
+                Eu tô com você. Sempre.
+        </p>
+    </section>
+    <hr>
+<footer>Feito com amor, por alguém que teve muita sorte de te encontrar.
+</footer>
+    <script>
+        function mostrarMensagem() {
+        const msg = document.getElementById ("mensagemOculta");
+        msg.style.display = "block";
+    }
+
+    function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
